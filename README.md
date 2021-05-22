@@ -10,6 +10,9 @@ https://github.com/degranda/Proyecto-Google-Clone
 - Go
 - Javascript
 - typescript
+- bash
+- COBOL
+- Kotlin
   
   ---
   
@@ -17,9 +20,6 @@ https://github.com/degranda/Proyecto-Google-Clone
 - PsInt
 - RPGLE
 - CLP
-- bash
-- COBOL
-- Kotlin
 - vue
 - React
 - Angular
