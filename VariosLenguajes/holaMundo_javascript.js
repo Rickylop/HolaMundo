@@ -1,4 +1,10 @@
 
+var mensaje = "hola mundo con javacript";
+
+console.log(mensaje);
+
+//otras pruebas de codigo
+
 console.log('prueba');
 
 const hellowPromise = ()=>{
@@ -13,3 +19,4 @@ const hellowPromise = ()=>{
     .then(() => console.log('hola'))
     .catch(error => console.log(error));
   
+
