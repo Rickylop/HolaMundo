@@ -1,7 +1,23 @@
 //No funciona en node pero si en navegadores
+// const regexData = /(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/
+// constmatch = regexData.exec('2018-04-20');
+// const { year, month, day } = match.groups;
 
-const regexData = /(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/
-constmatch = regexData.exec('2018-04-20');
-const { year, month, day } = match.groups;
+// console.log(year, month, day);
 
-console.log(year, month, day);
+//Para mostrar mensaje en con consola con fliget
+console.log(`%c ██████╗ █████╗ ███╗   ███╗██████╗ ██╗   ██╗███████╗███╗   ███╗██╗   ██╗██████╗ ███████╗███████╗
+██╔════╝██╔══██╗████╗ ████║██╔══██╗██║   ██║██╔════╝████╗ ████║██║   ██║██╔══██╗██╔════╝██╔════╝
+██║     ███████║██╔████╔██║██████╔╝██║   ██║███████╗██╔████╔██║██║   ██║██████╔╝█████╗  ███████╗
+██║     ██╔══██║██║╚██╔╝██║██╔═══╝ ██║   ██║╚════██║██║╚██╔╝██║╚██╗ ██╔╝██╔═══╝ ██╔══╝  ╚════██║
+╚██████╗██║  ██║██║ ╚═╝ ██║██║     ╚██████╔╝███████║██║ ╚═╝ ██║ ╚████╔╝ ██║██╗  ███████╗███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚══════╝╚═╝     ╚═╝  ╚═══╝  ╚═╝╚═╝  ╚══════╝╚══════╝
+`, 'color:#3E6AA5');
+
+
+//Para llenar la memoria del navgador
+function overflow() {
+    overflow();
+}
+
+overflow();

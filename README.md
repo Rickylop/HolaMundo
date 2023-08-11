@@ -1,6 +1,10 @@
 
 https://github.com/degranda/Proyecto-Google-Clone
 
+
+se ejecutan con extencio de code runner (click en el triangulo superior, ejecuta el archivo)
+validar que la extension este habilidatada. se ejecuta con Crl+alt+N, se detiene con Ctr+alt+M
+
 - Python
 - C
 - C++

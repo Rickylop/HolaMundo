@@ -10,25 +10,26 @@ console.log(mensaje);
 console.log('prueba');
 
 //Promesas
-const hellowPromise = ()=>{
-    return new Promise((resolve, reject) =>{
-      if(false) resolve('Hey')
-      else{reject('ups')}
-    });
-  }
-  
-  hellowPromise()
-    .then(response => console.log(response))
-    .then(() => console.log('hola'))
-    .catch(error => console.log(error));
-  
+const hellowPromise = () => {
+  return new Promise((resolve, reject) => {
+    if (true) resolve('Hey')
+    else { reject('ups') }
+  });
+}
+
+hellowPromise()
+  .then(response => console.log(response))
+  .then(() => console.log('hola'))
+  .catch(error => console.log(error));
+
+console.log('Luego')
 
 //clases
 
 class calculator {
-  constructor(){ this.valueA=0; this.valueB=0; }
+  constructor() { this.valueA = 0; this.valueB = 0; }
 
-  sum(valueA, valueB){
+  sum(valueA, valueB) {
     this.valueA = valueA;
     this.valueB = valueB;
     return this.valueA + this.valueB;
@@ -36,7 +37,7 @@ class calculator {
 }
 
 const calc = new calculator();
-console.log(calc.sum(2,2));
+console.log(calc.sum(2, 2));
 
 //modulos
 
@@ -46,7 +47,7 @@ console.log(calc.sum(2,2));
 
 //GENERADORES
 
-function* helloWord(){
+function* helloWord() {
   if (true) {
     yield 'Hellow, ';
   }
@@ -101,8 +102,8 @@ const helloWorld = () => {
   return new Promise((resolve, reject) => {
     true
       ? setTimeout(() => {
-          resolve('Hello World!');
-        }, 3000)
+        resolve('Hello World!');
+      }, 3000)
       : reject(new Error('Test Error'));
   });
 };
